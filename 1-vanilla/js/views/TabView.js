@@ -5,7 +5,7 @@ const tag = '[TabView]'
 const TabView = Object.create(View)
 
 TabView.tabNames = {
-  recommand: '추천 검색어',
+  recommend: '추천 검색어',
   recent: '최근 검색어',
 }
 

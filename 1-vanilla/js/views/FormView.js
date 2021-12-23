@@ -5,6 +5,7 @@ const tag = '[FormView]'
 const FormView = Object.create(View)
 
 FormView.setup = function (el) {
+  console.log('FormView.setup()', this)
   this.init(el)
   this.inputEl = el.querySelector('[type=text]')
   this.resetEl = el.querySelector('[type=reset')
